@@ -487,7 +487,7 @@ function renderTokenHelp() {
     if (!el) return;
     if (currentLang === "zh-CN") {
         el.innerHTML = `
-            <p style="margin-bottom:12px">由于 Pixiv 已不再支持用户名密码登录，您需要先获取一个 RefreshToken。以下方式任选其一：</p>
+            <p style="margin-bottom:12px">本程序使用 RefreshToken 认证，您需要先获取一个 RefreshToken。以下方式任选其一：</p>
             <div style="background:#1e2228; border-radius:6px; padding:12px; margin-bottom:12px">
                 <div style="color:#7eb6ff; font-weight:600; margin-bottom:8px">方式一：Pixiv-Viewer 网页端（推荐）</div>
                 <ol style="margin-left:18px; color:#a0a4ab">
