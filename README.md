@@ -85,7 +85,7 @@ The core difference is not "more features" — it is **design philosophy**. The 
 
 ### Option 1: Prebuilt binary (recommended for most users)
 
-1. Download `NagatoDownloader.zip` from [Releases](https://github.com/YOUR_USERNAME/NagatoDownloader/releases)
+1. Download from [Releases](https://github.com/mikari1424-lgtm/NagatoDownloader/releases)
 2. Extract to any directory (avoid non-ASCII paths)
 3. Double-click `NagatoDownloader.exe`
 4. The server starts and the WebUI opens in your browser
@@ -95,7 +95,7 @@ The core difference is not "more features" — it is **design philosophy**. The 
 ### Option 2: Run from source (developers)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/NagatoDownloader.git
+git clone https://github.com/mikari1424-lgtm/NagatoDownloader.git
 cd NagatoDownloader
 pip install -r requirements.txt
 python pixiv_server.py
@@ -331,7 +331,7 @@ These are not missing features — they are deliberate choices that push complex
 
 ## License
 
-General Public License v3.0
+GPL License v3.0
 
 ---
 
