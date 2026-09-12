@@ -1,11 +1,15 @@
 # NagatoDownloader
 
-> **A Pixiv Artwork Downloader**  
+> **A Pixiv Artwork Downloader**
+>
 > *Fetch the art. Keep the metadata.*
 
 一个前后端分离的 Pixiv 批量下载客户端。基于 Python + WebSocket + 原生 WebUI，用最少的资源完成最多的下载。
 
 [English Version →](README.md)
+
+AI声明: 本程序使用Deepseek V4.1-Flash辅助制作。
+
 ---
 
 ## 命名由来
