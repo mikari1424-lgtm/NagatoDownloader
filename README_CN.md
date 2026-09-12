@@ -83,7 +83,7 @@ AI声明: 本程序使用Deepseek V4.1-Flash辅助制作。
 
 ### 方式一：直接使用打包版（推荐普通用户）
 
-1. 从 [Releases](https://github.com/YOUR_USERNAME/NagatoDownloader/releases) 下载 `NagatoDownloader.zip`
+1. 从 [Releases](https://github.com/mikari1424-lgtm/NagatoDownloader/releases) 下载
 2. 解压到任意目录（建议路径不含中文）
 3. 双击 `NagatoDownloader.exe`
 4. 程序自动启动服务并在浏览器中打开界面
@@ -93,7 +93,7 @@ AI声明: 本程序使用Deepseek V4.1-Flash辅助制作。
 ### 方式二：从源码运行（推荐开发者）
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/NagatoDownloader.git
+git clone https://github.com/mikari1424-lgtm/NagatoDownloader.git
 cd NagatoDownloader
 pip install -r requirements.txt
 python pixiv_server.py
@@ -103,7 +103,7 @@ python pixiv_server.py
 
 ## 配置 RefreshToken
 
-**Pixiv 已不再支持用户名密码登录**，本程序使用 RefreshToken 认证。
+本程序使用 RefreshToken 认证。
 
 点击设置面板中"刷新令牌"旁的 **❓** 图标，程序内置了详细的获取指南。简要步骤：
 
