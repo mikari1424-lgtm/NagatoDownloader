@@ -1,11 +1,14 @@
 # NagatoDownloader
 
 > **A Pixiv Artwork Downloader**
+> 
 > *Fetch the art. Keep the metadata.*
 
 A client-server Pixiv bulk-download client built on Python + WebSocket + vanilla WebUI. Maximum output, minimum footprint.
 
 [简体中文 →](README_CN.md)
+
+AI Disclaimer: This program was created with the assistance of Deepseek V4.1-Flash.
 
 ---
 
