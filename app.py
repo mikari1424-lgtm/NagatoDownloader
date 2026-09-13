@@ -17,7 +17,6 @@ import re
 import socket
 import sys
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Any
 from datetime import datetime
 
 import requests
@@ -56,7 +55,7 @@ METADATA_STRINGS = {
     'en': {
         'ai_generated': 'AI-generated',
         'source_url': 'Source URL',
-        'description': 'Description',
+        'description': 'Caption',
     },
 }
 
@@ -69,7 +68,7 @@ def get_meta(lang: str) -> dict:
 # Config
 # ============================================================
 class ConfigManager:
-    CONFIG_FILE = get_app_dir() / "pixiv_client_config.json"
+    CONFIG_FILE = get_app_dir() / "NagatoDownloader_config.json"
 
     DEFAULT_CONFIG = {
         "refresh_token": "",
