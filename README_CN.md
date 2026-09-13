@@ -326,7 +326,7 @@ A: 代码跨平台，但需要自行替换 ExifTool 为对应平台的版本，�
 
 ## 许可证
 
-General Public License v3.0
+GPL License v3.0
 
 ---
 
